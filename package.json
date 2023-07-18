@@ -1,0 +1,16 @@
+{
+  "name": "setup-viteaspnet",
+  "version": "1.0.0",
+  "description": "To setup Vite.AspNetCore in dotnet core project quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.3.3",
+    "inquirer": "^9.2.8",
+    "xml2js": "^0.6.0"
+  }
+}
