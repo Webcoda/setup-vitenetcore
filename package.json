@@ -1,5 +1,5 @@
 {
-	"name": "setup-vitenetcore",
+	"name": "@webcodateam/setup-vitenetcore",
 	"version": "0.0.1",
 	"description": "To setup Vite.AspNetCore in dotnet core project quickly",
 	"main": "index.js",
