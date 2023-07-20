@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-const { exec } = require('child_process')
-const fs = require('fs')
-const { glob } = require('glob')
-const inquirer = require('inquirer')
-const path = require('path')
-const xml2js = require('xml2js')
+import { exec } from 'child_process'
+import fs from 'fs'
+import { glob } from 'glob'
+import inquirer from 'inquirer'
+import path from 'path'
+import xml2js from 'xml2js'
 
 function addPropertyToJsonFile(filePath, propertyName, propertyValue) {
 	fs.readFile(filePath, 'utf8', (err, data) => {
