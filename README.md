@@ -27,9 +27,11 @@ npx @webcodateam/setup-vitenetcore
 ```
 
 ## Usage
-Before running the setup process, make sure to add a script in your package.json to execute the setup:
+Before running the setup process, make sure to add a script in your `package.json` to execute the setup:
 
 ```json
+{
+ ...other settings
  "scripts": {
     "setup-vite": "setup-vitenetcore"
   }
